@@ -1,6 +1,8 @@
 # HordeAiTextGenLib
 Simple library written in C# to connect to HordeAI api, with cli simulating a chat
 
+Full AI Horde API docs: [stablehorde.net/api](https://stablehorde.net/api/)
+
 ### HordeApi - a library, you can use it independently from cli 
 
 just create a HordeApiCaller object and call **SendGenerateRequest** to start request, then **GetTextStatus** to check if it has completed, once finished **GetTextStatus** also contains the generated text in **generations[0].text**.
